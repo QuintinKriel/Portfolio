@@ -1,0 +1,118 @@
+body
+{
+    background-color: #121212 !important;
+    margin: 0;
+    padding: 0;
+}
+
+#name
+{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    top: 2vh;
+    color: #F7FFF7;
+    font-size: 5rem;
+    background-color: #121212;
+}
+
+#about
+{
+    width: 63vw;
+    height: 20vh;
+    position: relative;
+    top: 20vh;
+    left: 9vw;
+}
+
+#aboutMe
+{
+    color:#FF6B6B;     
+    font-size: 3rem;
+}
+
+#aboutText
+{
+    left: 2vw;
+    position: relative;
+    font-size: 2rem;
+}
+
+p
+{
+    color: 	#FF6B6B;
+}
+
+#projects
+{
+    width: 80vw;
+    height:100vh;
+    background-color: #FF6B6B;
+    position: relative;
+    left: 8vw;
+    top:70vh;
+}
+
+#contact
+{
+    height: 30vh;
+    width: 100vw;
+    background-color: teal;
+    position: relative;
+    top: 100vh;
+    text-align: center;
+}
+
+#contactMe
+{
+    color: #F7FFF7;
+    top: 3vh;
+    font-size: 3rem;
+
+}
+
+#contactText
+{
+    color: #F7FFF7; 
+}
+
+@media screen and (max-width: 700px)
+{
+    #name
+    {
+        width: 100vw;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        top: 2vh;
+        color: #F7FFF7;
+        font-size: 3rem;
+        background-color: #121212;
+    }
+
+    #aboutMe
+    {
+        color:#FF6B6B;     
+        font-size: 2rem;
+    }
+
+    #aboutText
+    {
+        left: 2vw;
+        position: relative;
+        font-size: 1rem;
+    }
+
+    #projects
+    {
+        width: 80vw;
+        height:150vh;
+        background-color: #FF6B6B;
+        position: relative;
+        left: 8vw;
+        top:50vh;
+    }
+}

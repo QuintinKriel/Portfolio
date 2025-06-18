@@ -310,6 +310,7 @@ a
         width: 52vw;
         height: 30vh;
         cursor:pointer;
+        border: 0.6vw solid white;
     }
 
     #ZombieSurv

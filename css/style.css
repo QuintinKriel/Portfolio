@@ -123,7 +123,7 @@ p
     height: 35vh;
     cursor:pointer;
     object-fit: cover;
-    border: 0.5vw solid white;
+    border: 0.2vw solid white;
 }
 
 .preview:hover
@@ -310,7 +310,6 @@ a
         width: 52vw;
         height: 30vh;
         cursor:pointer;
-        border: 2vw solid white;
     }
 
     #ZombieSurv

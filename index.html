@@ -15,7 +15,22 @@
     </head>
     <body>
 
-        <h1 id="name">Quintin Kriel</h1>
+        <div id="nameBanner">
+            <a href="#">            
+                <h1 id="name">Quintin Kriel</h1>
+            </a>
+            <a href="#about" class="jumpTo" id="jumpToAbout">About Me</a>
+            <a href="#projects" class="jumpTo" id="jumpToProject">My Projects</a>
+            <a href="#educationContainer" class="jumpTo" id="jumpToEdu">Education</a>
+            <a href="#contact" class="jumpTo" id="jumpToContact">Contact Me</a>
+        </div>
+
+          <!--<h1 id="name">
+                Quintin Kriel
+                <a href="#about">test</a>
+            </h1>-->  
+
+
 
         <div id="about">
             <h2 id="aboutMe">About Me</h2>
@@ -28,34 +43,32 @@
         <div id="projects">
             <div id="myProjects">My Projects</div>
             
-            <a href="zombieSurivor.html">
-            <div id = "ZombieSurv" class = "imageContainer">
-            <img class="GIF" 
-                src="Images/Still_Images/ZombieSurvivor_Still.png"
-                alt="Zombie Survivor">
+        <a href="zombieSurivor.html" class="fade-link">
+            <div id="ZombieSurv" class="imageContainer">
+                <video class="preview" loop muted playsinline>
+                    <source src="Images/Videos/ZombieSurvivor.mp4" type="video/mp4" />
+                </video>
                 <p class="projectText">Zombie Survivor</p>
             </div>
-            </a>
+        </a>
 
-            <a href="overdueDate.html">            
-            <div id="OverdueDate" class = "imageContainer" >
-                <img class="GIF";
-                src="Images/Still_Images/OverdueDate_Still.png"
-                alt="Overdue Date">
+        <a href="overdueDate.html" class="fade-link">
+            <div id="OverdueDate" class="imageContainer">
+                <video class="preview" loop muted playsinline>
+                    <source src="Images/Videos/OvderdueDate.mp4" type="video/mp4" />
+                </video>
                 <p class="projectText">Overdue Date</p>
             </div>
         </a>
 
-        <a href="compassGame.html">
-            <div id="CompassGame" class = "imageContainer" >
-            <img class="GIF" 
-                src="Images/Still_Images/CompassGame_Still.png"
-                alt="Untitled Compass Game">
-                <p class="projectText">Unitled Compass Game</p>
+        <a href="compassGame.html" class="fade-link">
+            <div id="CompassGame" class="imageContainer">
+                <video class="preview" loop muted playsinline>
+                    <source src="Images/Videos/CompassGame.mp4" type="video/mp4" />
+                </video>
+                <p class="projectText">Untitled Compass Game</p>
             </div>
         </a>
-
-
 
         </div>
 
@@ -79,9 +92,6 @@
                 <a href="https://quintin-kriel.itch.io" target="_blank">Itch.io page</a>
             </div>
         </div>
-
-
-
 
         <script src="JS/script.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

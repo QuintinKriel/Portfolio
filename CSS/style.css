@@ -13,7 +13,14 @@ body
 }
 
 
-#name
+body.fade-out
+{
+    opacity: 0;
+    transition: opacity 0.5s ease-out;   
+}
+
+
+#nameBanner
 {
     width: 100vw;
     text-align: center;
@@ -21,9 +28,40 @@ body
     top: 0;
     z-index: 1000;
     top: 2vh;
+    background-color: #121212;
+    height: 20vh;
+}
+
+#name
+{
     color: #F7FFF7;
     font-size: 5rem;
-    background-color: #121212;
+}
+
+.jumpTo
+{
+    position: relative;
+    font-size: 2rem;
+}
+
+#jumpToAbout
+{
+    left: -20vw;
+}
+
+#jumpToProject
+{
+    left: -9vw; 
+}
+
+#jumpToEdu
+{
+    left: 10vw;
+}
+
+#jumpToContact
+{
+    left: 20vw;
 }
 
 
@@ -32,7 +70,7 @@ body
     width: 63vw;
     height: 20vh;
     position: relative;
-    top: 20vh;
+    top: 30vh;
     left: 9vw;
 }
 
@@ -59,15 +97,14 @@ p
 {
     width: 80vw;
     height:100vh;
-    background-color: #FF6B6B;
     position: relative;
     left: 8vw;
     top:70vh;
-
 }
 
 #myProjects
 {
+    color: 	#FF6B6B;
     text-align: center;
     font-size: 5rem;
 }
@@ -79,11 +116,18 @@ p
 }
 
 
-.GIF
+.preview
 {
     width: 30vw;
-    height: 30vh;
+    height: 35vh;
     cursor:pointer;
+    object-fit: cover;
+    border: 0.5vw solid white;
+}
+
+.preview:hover
+{
+    animation-play-state: running;
 }
 
 .projectText
@@ -127,8 +171,8 @@ p
 #CompassGame
 {
     position: absolute;
-    left: 23vw;
-    top: 61vh;
+    left: 25vw;
+    top: 66vh;
 }
 
 #educationContainer
@@ -137,7 +181,7 @@ p
     height: 19vh;
     background-color: #F7FFF7;
     position: relative;
-    top: 72vh;
+    top: 77vh;
     left: 5vw;
     text-align: center;
 }
@@ -198,6 +242,37 @@ a
         background-color: #121212;
     }
 
+    .jumpTo
+    {
+        position: relative;
+        font-size: 2rem;
+    }
+
+    #jumpToAbout
+    {
+        top: 7vh;
+        left: 8vw;
+    }
+
+    #jumpToProject
+    {
+        top: 7vh;
+        left: 18vw; 
+    }
+
+    #jumpToEdu
+    {
+        top: 12vh;
+        left: -55vw;
+    }
+
+    #jumpToContact
+    {
+        top: 6.5vh;
+        left: 18vw;
+    }
+
+
     #aboutMe
     {
         color:#FF6B6B;     
@@ -218,7 +293,6 @@ a
     {
         width: 80vw;
         height:135vh;
-        background-color: #FF6B6B;
         position: relative;
         left: 8vw;
         top:50vh;
@@ -230,11 +304,12 @@ a
         font-size: 3rem;
     }
 
-    .GIF
+    .preview
     {
         width: 52vw;
         height: 30vh;
         cursor:pointer;
+        border: 2vw solid white;
     }
 
     #ZombieSurv

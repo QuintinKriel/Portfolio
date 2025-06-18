@@ -11,7 +11,7 @@ h1
     background-color: #121212;
 }
 
-#GIF
+.video
 {
     position: relative;
     width: 60vw;
@@ -53,20 +53,19 @@ h1
         width: 100vw;
         text-align: center;
         position: fixed;
-        top: 0;
         z-index: 1000;
         top: 2vh;
         color:white !important;
-        font-size: 20rem;
+        font-size: 2rem !important;
         background-color: #121212;
     }
 
-    #GIF
+    .video
     {
         position: relative;
-        width: 70vw;
+        width: 83vw;
         height: 45vh;
         top: 16vh;
-        left: 15vw;
+        left: 9vw;
     }
 }

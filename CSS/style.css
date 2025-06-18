@@ -131,29 +131,6 @@ p
     top: 61vh;
 }
 
-#contact
-{
-    height: 30vh;
-    width: 100vw;
-    background-color: teal;
-    position: relative;
-    top: 100vh;
-    text-align: center;
-}
-
-#contactMe
-{
-    color: #F7FFF7;
-    top: 3vh;
-    font-size: 3rem;
-
-}
-
-#contactText
-{
-    color: #F7FFF7; 
-}
-
 #educationContainer
 {
     width: 90vw;
@@ -176,7 +153,28 @@ p
     font-size: 2rem;
 }
 
+#contact
+{
+    height: 30vh;
+    width: 100vw;
+    background-color: teal;
+    position: relative;
+    top: 100vh;
+    text-align: center;
+}
 
+#contactMe
+{
+    color: #F7FFF7;
+    top: 3vh;
+    font-size: 3rem;
+
+}
+
+#contactText
+{
+    color: #F7FFF7; 
+}
 
 a
 {
@@ -210,7 +208,7 @@ a
     {
         left: 2vw;
         position: relative;
-        font-size: 2rem;
+        font-size: 1rem;
         font-family: "Underdog", system-ui;
         font-weight: 400;
         font-style: normal;      
@@ -219,11 +217,17 @@ a
     #projects
     {
         width: 80vw;
-        height:150vh;
+        height:135vh;
         background-color: #FF6B6B;
         position: relative;
         left: 8vw;
         top:50vh;
+    }
+
+    #myProjects
+    {
+        text-align: center;
+        font-size: 3rem;
     }
 
     .GIF
@@ -264,7 +268,7 @@ a
         top: 22vh;
         left: 0vw;
         color:#F7FFF7;
-        font-size: 2rem;
+        font-size: 1.5rem;
     } 
 
     .projectText::after 
@@ -272,8 +276,8 @@ a
         display: block;
         text-align: center;
         color: #F7FFF7;
-        line-height: 5vh;
-        font-size: 2rem;
+        line-height: 1vh;
+        font-size: 1rem;
     }
 
     .imageContainer:hover .projectText::after 
@@ -281,7 +285,28 @@ a
         content: "Click to View!";
     }
 
-    
+    #educationContainer
+    {
+        width: 90vw;
+        height: 35vh;
+        background-color: #F7FFF7;
+        position: relative;
+        top: 72vh;
+        left: 5vw;
+        text-align: center;
+    }
+
+    #eduTitle
+    {
+        font-size: 3rem;
+        font-style: bold;
+    }
+
+    #eduText
+    {
+        font-size: 2rem;
+    }
+
     #contactMe
     {
         color: #F7FFF7;
@@ -295,6 +320,15 @@ a
         font-size: 2rem;
     }
 
+    #contact
+    {
+        height: 50vh;
+        width: 100vw;
+        background-color: teal;
+        position: relative;
+        top: 100vh;
+        text-align: center;
+    }
 }
 
 .font1 {

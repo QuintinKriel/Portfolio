@@ -42,6 +42,7 @@ body.fade-out
 {
     position: relative;
     font-size: 2rem;
+    top: -2vh;
 }
 
 #jumpToAbout
@@ -244,32 +245,32 @@ a
 
     .jumpTo
     {
-        position: relative;
+        position: absolute;
         font-size: 2rem;
     }
 
     #jumpToAbout
     {
         top: 7vh;
-        left: 8vw;
+        left: 12vw;
     }
 
     #jumpToProject
     {
         top: 7vh;
-        left: 18vw; 
+        left: 53vw; 
     }
 
-    #jumpToEdu
+   #jumpToEdu
     {
         top: 12vh;
-        left: -55vw;
+        left: 12vw;
     }
 
     #jumpToContact
     {
-        top: 6.3vh;
-        left: 18vw;
+        top: 12vh;
+        left: 53vw;
     }
 
 
